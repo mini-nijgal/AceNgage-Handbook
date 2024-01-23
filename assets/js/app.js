@@ -27,6 +27,7 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">About Us</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Documents</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">ISO</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Star Board</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="https://www.acengage.com/" target="_blank">Website</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
@@ -135,7 +136,7 @@ let footer = $(`
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-comtainer">
           <div class="form-style-6">
              <div class="form-header">
-                <h6 class="display">Get in Touch</h6>
+                <h6 class="display">Having a issue?</h6>
               </div>
                 <form name="form1" action="https://formcarry.com/s/EM0H-d8pU8z" method="POST" accept-charset="UTF-8" >
                   <input id="name" type="text" name="name" placeholder="Your Name" required/>
