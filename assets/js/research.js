@@ -4,6 +4,18 @@ const researchTable = document.querySelector(".main");
 
 const research = [
   {
+    title: "AceNgage Employee Handbook",
+    authors:
+"In order to build a healthy environment in the workplace with an organized culture, every employer needs to build and maintain an employee handbook with clear norms and processes written in it. Writing a handbook might not as easy as it sounds, but it is fundamental for every company to have it.",   
+    citebox: "popup1",
+    image: "https://connectresources.ae/wp-content/uploads/2020/10/maintain-an-employee-handbook.jpg",
+    citation: { },
+    abstract:
+      "This is currently left empty and this can be considered as a dummy data 1",
+    absbox: "https://drive.google.com/drive/folders/1n23t2VeLa_fydM_NKJMQx0uJDvhKkMwN",
+    href:"assets/docs/EmployeeHandbook.pdf"
+  },
+  {
     title: "AceNgage InfoServices BYOD Policy ISP-01",
     authors:
       "The BYOD and Acceptable Use Policy are part of the corporate Information Security Program. Information security policies are the principles that direct managerial decision-making and facilitate secure business operations.",
