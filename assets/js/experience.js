@@ -5,7 +5,7 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "MISSION",
+    title: "Mission",
     cardImage: "assets/images/experience-page/Mission.png",
     // place: "Flipkart",
     // time: "(May, 2020 - present)",
