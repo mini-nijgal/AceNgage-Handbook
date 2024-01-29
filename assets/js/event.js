@@ -5,32 +5,32 @@ $(document).ready(function () {
     // eslint-disable-next-line linebreak-style
     {
       title: "Talk on ABC",
-      image: "assets/images/event/image3.jpg",
+      image: "https://media.istockphoto.com/id/1368965646/photo/multi-ethnic-guys-and-girls-taking-selfie-outdoors-with-backlight-happy-life-style-friendship.webp?s=2048x2048&w=is&k=20&c=baHCg849TJFcyLJ8noAmST59EPTQ217u1m_PQ99B6TY=",
     },
     {
       title: "Keynote on XYZ",
-      image: "assets/images/event/image2.jpg",
+      image: "https://media.istockphoto.com/id/1368965646/photo/multi-ethnic-guys-and-girls-taking-selfie-outdoors-with-backlight-happy-life-style-friendship.webp?s=2048x2048&w=is&k=20&c=baHCg849TJFcyLJ8noAmST59EPTQ217u1m_PQ99B6TY=",
     },
-    { title: "Group Picture", image: "assets/images/event/image1.jpg" },
+    { title: "Group Picture", image: "https://media.istockphoto.com/id/1368965646/photo/multi-ethnic-guys-and-girls-taking-selfie-outdoors-with-backlight-happy-life-style-friendship.webp?s=2048x2048&w=is&k=20&c=baHCg849TJFcyLJ8noAmST59EPTQ217u1m_PQ99B6TY=" },
     {
       title: "Presentation",
-      image: "assets/images/event/image4.jpg",
+      image: "https://media.istockphoto.com/id/513439341/photo/portrait-of-enthusiastic-business-people-in-circle.webp?s=2048x2048&w=is&k=20&c=9hnolLHaRciS6aJtEGTP1rdFjD2ccFt8PwtdH0E8IK4=",
     },
     {
       title: "Note on XYZ",
-      image: "assets/images/event/image5.jpg",
+      image: "https://media.istockphoto.com/id/1392016982/photo/mixed-group-of-business-people-sitting-around-a-table-and-talking.jpg?s=612x612&w=is&k=20&c=HYwuJmIim5Fr9xlm0ebEQtA_VuXxPhUixcYPkmRf2SU=",
     },
     {
       title: "Keytopics",
-      image: "assets/images/event/image6.jpg",
+      image: "https://media.istockphoto.com/id/1392016982/photo/mixed-group-of-business-people-sitting-around-a-table-and-talking.jpg?s=612x612&w=is&k=20&c=HYwuJmIim5Fr9xlm0ebEQtA_VuXxPhUixcYPkmRf2SU=",
     },
     {
       title: "The Gist",
-      image: "assets/images/event/image7.jpg",
+      image: "https://media.istockphoto.com/id/1342270584/photo/confident-business-team-having-meeting.webp?s=2048x2048&w=is&k=20&c=cbnUHL96Ytj-iWrt5kjGegEh38SsXtiFh1P_NiTP2L4=",
     },
     {
       title: "Thank You",
-      image: "assets/images/event/image8.jpg",
+      image: "https://media.istockphoto.com/id/1342270584/photo/confident-business-team-having-meeting.webp?s=2048x2048&w=is&k=20&c=cbnUHL96Ytj-iWrt5kjGegEh38SsXtiFh1P_NiTP2L4=",
     },
   ];
   // Filling the details from the object array event

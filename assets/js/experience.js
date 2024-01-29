@@ -60,10 +60,10 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
+    title: "AWARDED BEST OUTSOURCED EXIT INTERVIEW PARTNER",
     cardImage: "assets/images/experience-page/1.jpg",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "AWARDED BEST OUTSOURCED EXIT INTERVIEW PARTNER . At the WORLD HRD CONGRESS in association with ET NOW & TIMES ascent",
   },
   {
     title: "StudentCode-in 2020",

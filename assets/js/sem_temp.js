@@ -16,16 +16,18 @@ let header = $(`
 </div>
 
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
-  <ul class="navbar-nav ml-auto" id = "navbar-content">
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experience</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="https://hashnode.com/" target="_blank">Blogs</a></li>
-   <li class="nav-item">
-   <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()">
-   </li>
+<ul class="navbar-nav ml-auto" id = "navbar-content">
+<li class="nav-item nav-item-hover"><a class="nav-link" href="sem_temp.html">Homeflex</a></li>
+ <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
+ <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">About Us</a></li>
+ <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Documents</a></li>
+ <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">ISO</a></li>
+ <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Star Board</a></li>
+ <li class="nav-item nav-item-hover"><a class="nav-link" href="event.html">Gallery</a></li>
+ <li class="nav-item nav-item-hover"><a class="nav-link" href="https://www.acengage.com/" target="_blank">Website</a></li>
+ <li class="nav-item">
+ <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
+ </li>
    <div class="bike">
    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 0 650 400" preserveAspectRatio="xMinYMin meet">
      <rect/>
@@ -210,28 +212,28 @@ $(window).on("load", function () {
 // Store Semester Recap data
 const sem_temp = [
   {
-    event_name: "Chemistry Lab",
-    event_type: "Mentorship",
+    event_name: "Exits",
+    event_type: "AceNgage",
     event_image: "chemistrymentee.jpg",
   },
   {
     event_name: "User Experience",
-    event_type: "Summer Research",
+    event_type: "Cool Analysis",
     event_image: "uxresearch.jpg",
   },
   {
-    event_name: "UX Team",
-    event_type: "Happy Hours",
+    event_name: "Employee engagement",
+    event_type: "NHE",
     event_image: "teamcamping.jpg",
   },
   {
-    event_name: "Orientation",
-    event_type: "Keynote",
+    event_name: "Renege",
+    event_type: "Employee Rentation",
     event_image: "groomingspeech.jpg",
   },
   {
-    event_name: "Graduation",
-    event_type: "Ceremony",
+    event_name: "CE",
+    event_type: "Joined",
     event_image: "graduation.jpg",
   },
 ];
