@@ -6,7 +6,7 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Mission",
-    cardImage: "assets/images/experience-page/Mission.png",
+    cardImage: "assets/images/experience-page/acemission.png",
     // place: "Flipkart",
     // time: "(May, 2020 - present)",
     desp: "<li>To be the best HR Intelligence partner by providing better feedback across various stages of the employee lifecycle</li> ",
