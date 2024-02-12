@@ -46,21 +46,14 @@ const projects = [
     href: "https://online.fliphtml5.com/xmvex/pxih/index.html",
   },
   {
-    title: "Winners Best Team",
+    title: "Winners Best Team dummy",
     cardImage:
       "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
     description: "Winners Best Team",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     href: "",
   },
-  {
-    title: "Tessa",
-    cardImage:
-      "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
-    description: "Winner Best Team",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    href: "",
-  },
+  
 ];
 
 // function for rendering project cards data
