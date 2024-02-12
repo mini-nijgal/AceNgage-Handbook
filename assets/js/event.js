@@ -64,6 +64,9 @@ $(document).ready(function () {
     }
     eventswiper.innerHTML = output;
   }
+
+
+  
   document.addEventListener("DOMContentLoaded", fillData());
   const parallaxSliderOptions = {
     speed: 1000,
@@ -114,3 +117,5 @@ $(document).ready(function () {
   // initializing swiper
   const slider = new Swiper(".image-slider", parallaxSliderOptions);
 });
+
+
