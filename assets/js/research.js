@@ -6,27 +6,31 @@ const research = [
   {
     title: "AceNgage Employee Handbook",
     authors:
-"In order to build a healthy environment in the workplace with an organized culture, every employer needs to build and maintain an employee handbook with clear norms and processes written in it. Writing a handbook might not as easy as it sounds, but it is fundamental for every company to have it.",   
+      "In order to build a healthy environment in the workplace with an organized culture, every employer needs to build and maintain an employee handbook with clear norms and processes written in it. Writing a handbook might not as easy as it sounds, but it is fundamental for every company to have it.",
     citebox: "popup1",
-    image: "https://connectresources.ae/wp-content/uploads/2020/10/maintain-an-employee-handbook.jpg",
-    citation: { },
+    image:
+      "https://connectresources.ae/wp-content/uploads/2020/10/maintain-an-employee-handbook.jpg",
+    citation: {},
     abstract:
       "This is currently left empty and this can be considered as a dummy data 1",
-    absbox: "https://drive.google.com/drive/folders/1n23t2VeLa_fydM_NKJMQx0uJDvhKkMwN",
-    href:"assets/docs/EmployeeHandbook.pdf"
+    absbox:
+      "https://drive.google.com/drive/folders/1n23t2VeLa_fydM_NKJMQx0uJDvhKkMwN",
+    href: "https://online.fliphtml5.com/dqvvm/rqgb/index.html",
   },
   {
     title: "AceNgage InfoServices BYOD Policy ISP-01",
     authors:
       "The BYOD and Acceptable Use Policy are part of the corporate Information Security Program. Information security policies are the principles that direct managerial decision-making and facilitate secure business operations.",
-   
+
     citebox: "popup1",
-    image: "https://cdn.elearningindustry.com/wp-content/uploads/2015/02/shutterstock_214293535.jpg",
-    citation: { },
+    image:
+      "https://cdn.elearningindustry.com/wp-content/uploads/2015/02/shutterstock_214293535.jpg",
+    citation: {},
     abstract:
       "This is currently left empty and this can be considered as a dummy data 1",
-    absbox: "https://drive.google.com/drive/folders/1n23t2VeLa_fydM_NKJMQx0uJDvhKkMwN",
-    href:"assets/docs/BYOD.pdf"
+    absbox:
+      "https://drive.google.com/drive/folders/1n23t2VeLa_fydM_NKJMQx0uJDvhKkMwN",
+    href: "https://online.fliphtml5.com/dqvvm/lnio/index.html",
   },
 
   {
@@ -34,39 +38,37 @@ const research = [
     authors:
       "As a mitigation step to ensure we don’t send emails (containing confidential information) to the wrong recipient, the below process should be followed on an immediate basis by all acengage.com email id users.There is two parts to this process: 1. Users using ZOHO webmail 2. Users using Microsoft Outlook",
     citebox: "popup2",
-    image: "https://jatheon.com/wp-content/uploads/2018/08/680-x-360-20-reasons-why-every-company-should-archive-email.png",
+    image:
+      "https://jatheon.com/wp-content/uploads/2018/08/680-x-360-20-reasons-why-every-company-should-archive-email.png",
     citation: {},
     abstract:
       "This is currently left empty and this can be considered as a dummy data 2",
     absbox: "absPopup2",
-    href:"assets/docs/email.pdf"
+    href: "https://online.fliphtml5.com/dqvvm/xslm/index.html",
   },
 
   {
-    title:
-      "AceNgage Remote Work Policy ",
-    authors:"add content",
+    title: "AceNgage Remote Work Policy ",
+    authors: "add content",
     citebox: "popup3",
-    image: "https://amtrustfinancial.com/getattachment/ANA-Blog/Blog/Small-Business/March-2020/Coronavirus-Best-Practices-Work-From-Home-Policy/ANA_AmTrust_Remote_Worker_Best_Practices_Social_736X385-min.jpg",
+    image:
+      "https://amtrustfinancial.com/getattachment/ANA-Blog/Blog/Small-Business/March-2020/Coronavirus-Best-Practices-Work-From-Home-Policy/ANA_AmTrust_Remote_Worker_Best_Practices_Social_736X385-min.jpg",
     citation: {},
-    abstract:
-      "Add content",
+    abstract: "Add content",
     absbox: "absPopup3",
-    href:"assets/docs/wfh.pdf"
+    href: "https://online.fliphtml5.com/dqvvm/nsbg/index.html",
   },
 
   {
-    title:
-      "NDA",
-    authors:"add content",
+    title: "NDA",
+    authors: "add content",
     citebox: "popup4",
-    image: "https://assets-global.website-files.com/633c023b7f94fe5eb2e65d62/63b745b6857b45f63cf94843_624f77e8d76374256e9a8387_AdobeStock_225001591%2520Large.jpeg",
+    image:
+      "https://assets-global.website-files.com/633c023b7f94fe5eb2e65d62/63b745b6857b45f63cf94843_624f77e8d76374256e9a8387_AdobeStock_225001591%2520Large.jpeg",
     citation: {},
-    abstract:
-      "Add content",
+    abstract: "Add content",
     absbox: "absPopup4",
-    href:"assets/docs/NDA.pdf"
-    
+    href: "https://online.fliphtml5.com/dqvvm/tvcu/index.html",
   },
 ];
 AOS.init();
@@ -83,7 +85,7 @@ const fillData = () => {
       citation,
       absbox,
       abstract,
-      href
+      href,
     }) =>
       (output += `
             <tr data-aos="zoom-in-left"> 
