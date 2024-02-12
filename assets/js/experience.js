@@ -5,25 +5,18 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Mission",
-    cardImage: "assets/images/experience-page/acemission.png",
+    title: "Krish Hanumanthu",
+    cardImage: "assets/images/experience-page/krish.jpeg",
     // place: "Flipkart",
-    // time: "(May, 2020 - present)",
-    desp: "<li>To be the best HR Intelligence partner by providing better feedback across various stages of the employee lifecycle</li> ",
+    time: "Reach Krish at krish@acengage.com",
+    desp: "As the CoFounder of AceNgage (an award winning HR organisation working with companies to improve employee engagement and retention) Krish covers a wide arc of People Operations and Human Resource and Process Consulting apart from being the key sales and marketing role that he accomplishes at AceNgage. As a company with a decade long vintage, Krish spearheads client relationships as well. Clients look to him and the team at AceNgage for guidance and help on some of their most vexing ‘people problems’ that face them. He has been advising clients on a variety of subjects ranging from recruitment, vendor management, induction quality, training effectiveness and has helped evolve creative processes to strengthen these areas. His days at hospitality taught him that ‘Customer is King’ and it continues to be a philosophy at AceNgage. He enjoys playing Squash, reading comics and blogging. Counts running the full marathon among his major achievements.  ",
   },
   {
-    title: "Vision",
-    cardImage: "assets/images/experience-page/Vision.png",
-    // place: "Google Summer Of Code",
-    // time: "(Mar - Aug, 2019)",
-    desp: "<li>To make our clients more competitive by becomingthe leading provider ofsuperios HR (people) Intelligence</li>",
-  },
-  {
-    title: "Values",
-    cardImage: "assets/images/experience-page/Values.png",
+    title: "Ashana K",
+    cardImage: "assets/images/experience-page/ashana.png",
     // place: "IIT, Bombay",
-    // time: "(Dec, 19 - Jan, 20)",
-    desp: "<li> Sincerity , Enthusiasm , Innovation.</li>",
+    time: "Reach Ashana at ashana@acengage.com",
+    desp: "Ashana is a Post Graduate in Management with over 16 years experience in the Telecom industry, Outsourcing and HR. She has handled all facets of Delivery including Recruitment, Training, Quality, Client Relationship and Account Management.Teaching has always been her passion and she conducts regular sessions as a Guest Faculty for MBA/PGDBM students. She is now involved in Coaching managers to improve their People Management Skills.Her dream is to make AceNgage the Numero Uno among companies specializing in Employee Engagement.She enjoys trekking, travelling and reading.",
   },
 ];
 
@@ -44,7 +37,7 @@ const showCards2 = () => {
             </p>
             
               ${desp}
-           
+              <p style="color:#3386ce;" >${time}</p>
           </header>
         </article>
       </div>
@@ -60,28 +53,21 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "AWARDED BEST OUTSOURCED EXIT INTERVIEW PARTNER",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "Mission",
+    cardImage: "assets/images/experience-page/acemission.png",
     description:
-      "AWARDED BEST OUTSOURCED EXIT INTERVIEW PARTNER . At the WORLD HRD CONGRESS in association with ET NOW & TIMES ascent",
+      "To be the best HR Intelligence partner by providing better feedback across various stages of the employee lifecyclet",
   },
   {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
+    title: "Vision",
+    cardImage: "assets/images/experience-page/Vision.png",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "To make our clients more competitive by becomingthe leading provider ofsuperios HR (people) Intelligence.",
   },
   {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
-    description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+    title: "Value",
+    cardImage: "assets/images/experience-page/Values.png",
+    description:"<li> Sincerity</li><li>Enthusiasm</li><li>Innovation</li>",
   },
 ];
 
@@ -95,7 +81,8 @@ const showCards = () => {
       <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
       <div class="content">
           <h2 class="volunteerTitle">${title}</h2><br>
-          <p class="copy">${description}</p></div>
+          <p>${description}</p></div>
+         
       
       </div>
       `)
