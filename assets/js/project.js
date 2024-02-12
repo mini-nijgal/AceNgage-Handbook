@@ -6,53 +6,67 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "Tessa",
-    cardImage: "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
-    description: "Winner Best Team 2023",
+    title: "Winners - January 2023",
+    cardImage:
+      "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
+    description: "Winners Slides - January 2023",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    href: "https://online.fliphtml5.com/xmvex/lnkz/index.html",
+  },
+  {
+    title: "Winners - February 2023",
+    cardImage:
+      "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
+    description: "Winners Slides - February 2023",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    href: "https://online.fliphtml5.com/xmvex/euwn/index.html",
+  },
+  {
+    title: "Winners - March 2023",
+    cardImage:
+      "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
+    description: "Winners Slides - March 2023",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    href: "https://online.fliphtml5.com/xmvex/nuys/index.html",
+  },
+  {
+    title: "Winners - April 2023",
+    cardImage:
+      "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
+    description: "Winners Slides - April 2023",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    href: "https://online.fliphtml5.com/xmvex/rixw/index.html",
+  },
+  {
+    title: "Winners - May 2023",
+    cardImage:
+      "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
+    description: "Winners Slides - May 2023",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    href: "https://online.fliphtml5.com/xmvex/pxih/index.html",
+  },
+  {
+    title: "Winners Best Team",
+    cardImage:
+      "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
+    description: "Winners Best Team",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    href: "",
   },
   {
     title: "Tessa",
-    cardImage: "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
-    description: "Winner Best Team 2022",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-  },
-  {
-    title: "Tessa",
-    cardImage: "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
-    description: "Winner Best Team 2020",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-  },
-  {
-    title: "Tessa",
-    cardImage: "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
+    cardImage:
+      "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
     description: "Winner Best Team",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-  },
-  {
-    title: "Tessa",
-    cardImage: "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
-    description: "Winner Best Team",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-  },
-  {
-    title: "Tessa",
-    cardImage: "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
-    description: "Winner Best Team",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-  },
-  {
-    title: "Tessa",
-    cardImage: "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
-    description: "Winner Best Team",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    href: "",
   },
 ];
 
 // function for rendering project cards data
 const showCards = () => {
   let output = "";
-  projects.forEach(({ title, cardImage,description }) => {
+  projects.forEach(({ title, cardImage, description, href }) => {
     output += `       
         <div class="column skill-card card" style="margin: 15px"data-aos="zoom-in-up" data-aos-easing="linear" data-aos-delay="300" data-aos-duration="600" >
           <div class="wrapper" style="background: url(${cardImage}) center / cover no-repeat;">
@@ -65,7 +79,7 @@ const showCards = () => {
                 <h1 class="title"><a href="#">${title}</a></h1>
                 </div>
             <ul class="menu-content"><br>
-            ${description}
+            <a href=${href} class="external-link" target="_blank">${description}</a>
                 </ul>
               </div>
             </div>

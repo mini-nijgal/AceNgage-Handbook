@@ -39,6 +39,17 @@ body {
   color: #4e00bb;
 }
 
+.external-link {
+  color: rgb(231, 85, 109);
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.external-link:hover {
+  color: #f3aab6;
+  cursor: pointer;
+}
+
 /*For Changing background color of body according to theme*/
 
 .light-mode-button {
