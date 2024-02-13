@@ -70,6 +70,17 @@ const research = [
     absbox: "absPopup4",
     href: "https://online.fliphtml5.com/dqvvm/tvcu/index.html",
   },
+  {
+    title: "NDA",
+    authors: "add content",
+    citebox: "popup4",
+    image:
+      "https://assets-global.website-files.com/633c023b7f94fe5eb2e65d62/63b745b6857b45f63cf94843_624f77e8d76374256e9a8387_AdobeStock_225001591%2520Large.jpeg",
+    citation: {},
+    abstract: "Add content",
+    absbox: "absPopup4",
+    href: "https://online.fliphtml5.com/dqvvm/tvcu/index.html",
+  },
 ];
 AOS.init();
 const fillData = () => {

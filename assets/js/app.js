@@ -26,12 +26,21 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">About Us</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Documents</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">ISO</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Star Board</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="event.html">Gallery</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="reference.html">Job Vacancy</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="getHelp.html">Get Help</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="https://www.acengage.com/" target="_blank">Website</a></li>
    
+
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     More
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="projects.html">Star Board</a>
+      <a class="dropdown-item" href="event.html">Gallery</a>
+      <a class="dropdown-item" href="getHelp.html">Get Help</a>
+      <a class="dropdown-item" href="reference.html">Job Vacancy</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="https://www.acengage.com/">Website</a>
+    </div>
+  </li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
    </li>
@@ -211,8 +220,9 @@ let footer = $(`
     </svg>
     </a>
 
-
-    
+    <p>Copyright &copy; 2022
+    <a href="https://www.acengage.com/privacy-policy/"> AceNgage</a>
+    </p>
     </div>
     </div>
 </footer>
@@ -224,6 +234,8 @@ let upArrow = $(`
   <link rel="stylesheet" type="text/css" href="./css/style.css" />
   })
 `);
+
+
 
 $(document).ready(function () {
   // updating the color of the swiper bullets (initial update of color)
