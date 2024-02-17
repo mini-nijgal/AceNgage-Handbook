@@ -4,7 +4,7 @@
 // Header
 let header = $(`
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
-<a class="navbar-brand" href="index.html">AceNgage </a>
+
 <div class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
   <div id="js-hamburger" class="hamburger">
@@ -16,6 +16,7 @@ let header = $(`
 </div>
 
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
+<img src="https://www.acengage.com/wp-content/uploads/2021/11/acengage-logo.png" style= "height:42px">
 <ul class="navbar-nav ml-auto" id = "navbar-content">
 <li class="nav-item nav-item-hover"><a class="nav-link" href="sem_temp.html">Home</a></li>
  <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">About Us</a></li>
@@ -223,28 +224,28 @@ $(window).on("load", function () {
 // Store Semester Recap data
 const sem_temp = [
   {
-    event_name: "Exits",
-    event_type: "AceNgage",
+    event_name: "Post yXit ",
+    event_type: " ",
     event_image: "chemistrymentee.jpg",
   },
   {
-    event_name: "User Experience",
-    event_type: "Cool Analysis",
+    event_name: "Candidate ",
+    event_type: "Engagement",
     event_image: "uxresearch.jpg",
   },
   {
-    event_name: "Employee engagement",
-    event_type: "NHE",
+    event_name: "New Hire",
+    event_type: "Engagement",
     event_image: "teamcamping.jpg",
   },
   {
-    event_name: "Renege",
-    event_type: "Employee Rentation",
+    event_name: "Employee",
+    event_type: "Engagement Survey",
     event_image: "groomingspeech.jpg",
   },
   {
-    event_name: "CE",
-    event_type: "Joined",
+    event_name: "Workshops ",
+    event_type: "and Trainings",
     event_image: "graduation.jpg",
   },
 ];

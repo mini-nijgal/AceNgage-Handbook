@@ -7,48 +7,84 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "Winners - January 2023",
-    cardImage:
-      "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
+    cardImage:"assets/images/project-page/rnr.png",
     description: "Winners Slides - January 2023",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     href: "https://online.fliphtml5.com/xmvex/lnkz/index.html",
   },
   {
     title: "Winners - February 2023",
-    cardImage:
-      "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
+    cardImage:"assets/images/project-page/rnr.png",
     description: "Winners Slides - February 2023",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     href: "https://online.fliphtml5.com/xmvex/euwn/index.html",
   },
   {
     title: "Winners - March 2023",
-    cardImage:
-      "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
+    cardImage:"assets/images/project-page/rnr.png",
     description: "Winners Slides - March 2023",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     href: "https://online.fliphtml5.com/xmvex/nuys/index.html",
   },
   {
     title: "Winners - April 2023",
-    cardImage:
-      "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
+    cardImage:"assets/images/project-page/rnr.png",
     description: "Winners Slides - April 2023",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     href: "https://online.fliphtml5.com/xmvex/rixw/index.html",
   },
   {
     title: "Winners - May 2023",
-    cardImage:
-      "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
+    cardImage:"assets/images/project-page/rnr.png",
     description: "Winners Slides - May 2023",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     href: "https://online.fliphtml5.com/xmvex/pxih/index.html",
   },
   {
-    title: "Winners Best Team dummy",
-    cardImage:
-      "https://www.accesspsych.com.au/wp-content/uploads/2022/06/Why-employers-should-use-an-EAP-to-look-after-their-employees-mental-health-1.jpg",
+    title: "Winners Best Team June",
+    cardImage:"assets/images/project-page/rnr.png",
+    description: "Winners Best Team",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    href: "",
+  },
+  {
+    title: "Winners Best Team July",
+    cardImage:"assets/images/project-page/rnr.png",
+    description: "Winners Best Team",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    href: "",
+  },
+  {
+    title: "Winners Best Team August",
+    cardImage:"assets/images/project-page/rnr.png",
+    description: "Winners Best Team",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    href: "",
+  },
+  {
+    title: "Winners Best Team September",
+    cardImage:"assets/images/project-page/rnr.png",
+    description: "Winners Best Team",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    href: "",
+  },
+  {
+    title: "Winners Best Team October",
+    cardImage:"assets/images/project-page/rnr.png",
+    description: "Winners Best Team",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    href: "",
+  },
+  {
+    title: "Winners Best Team November",
+    cardImage:"assets/images/project-page/rnr.png",
+    description: "Winners Best Team",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    href: "",
+  },
+  {
+    title: "Winners Best Team December",
+    cardImage:"assets/images/project-page/rnr.png",
     description: "Winners Best Team",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     href: "",

@@ -8,33 +8,35 @@ const references = [
   {
     sl1: 1,
     name1 : "Full-Time",
-        designation1 : "Product Manager, Microsoft",
+        designation1 : "Data Analytics Developer - Power BI Specialist",
         image1 : "https://avatars.githubusercontent.com/u/46641503?v=4",
-        message1 : ".",
+        message1 : "What We Look For Passion: We look for individuals who are passionate about their work and are committed to excellence Team Player: We value teamwork and collaboration. We're looking for team players who can work effectively with others.  Innovative Thinkers: We're looking for individuals who can think outside the box and come up with creative solutions to challenges. Continuous Learners: We value continuous learning and development. We're looking for individuals who are eager to learn and grow. Click on the ",
+        href1: "https://online.fliphtml5.com/xmvex/zihn/index.html",
         
 
         sl2:2,
-        name2 : "Anush Bhatia",
-        designation2 : "Senior Analyst, Capgemini", 
+        name2 : "Full-Time",
+        designation2 : "Engagement Specialists Exit Process", 
         image2: "https://avatars.githubusercontent.com/u/46641503?v=4",
-        message2 : "John has the best grasping skills I have seen in a new developer. I got to know him through GSSOC'2021 when I mentored him, and he made an exceptional growth during the competition. He made some incredible contributions and has good experience with Open Source.",
-        
+        message2 : "What We Look For Passion: We look for individuals who are passionate about their work and are committed to excellence Team Player: We value teamwork and collaboration. We're looking for team players who can work effectively with others.  Innovative Thinkers: We're looking for individuals who can think outside the box and come up with creative solutions to challenges. Continuous Learners: We value continuous learning and development. We're looking for individuals who are eager to learn and grow. Click on the ",
+        href2: "https://online.fliphtml5.com/xmvex/dmhb/index.html",
         
     },
 
     {
         sl1:3,
-        name1 : "Aditya Jyoti Paul",
-        designation1 : "Technical Analyst, Amazon",
+        name1 : "Full time",
+        designation1 : "Technical Analyst",
         image1 : "https://avatars.githubusercontent.com/u/46641503?v=4",
-        message1 : "John and I have worked on several projects. Apart from technical skills, he also has good soft skills. He has good experience with debugging and has excellent leadership qualities.",
-        
+        message1 : " and I have worked on several projects. Apart from techni he also has good soft skills. He has good experience with debugging and has excellent leadership qualities.",
+        href3: "",
 
         sl2:4,
-        name2 : "Arnab Dutta Purkayastha",
-        designation2 : "Data Scientist, Flipkart",
+        name2 : "Part - Time",
+        designation2 : "Data Scientist",
         image2 : "https://avatars.githubusercontent.com/u/46641503?v=4",
-        message2 : "John and I worked together during a hackathon and the thing that surprised me the most about him was his knowledge of fundamentals. He offered sincere help to the team throughout the competition. He is an impressive problem solver who is able to address complex issues strategically and confidently.",
+        message2 : "deets",
+        href4: "",
   },
 ];
 
@@ -55,6 +57,8 @@ const fillData = () => {
       name2,
       designation2,
       message2,
+      href1,
+      href2,
       absbox_for_linkedin2,
     }) =>
       (output += `<tr data-aos="zoom-in-left"> 
@@ -68,7 +72,9 @@ const fillData = () => {
                     <img src="https://img.icons8.com/fluency/48/000000/quote-left.png"/>
                     <a href="#0" class="paperTitle"> ${name1} </a> 
                     <div> ${designation1} </div> <div class="rConferences">  
-                        <div class="referenceY">${message1}</div>
+                        <div class="referenceY">${message1}
+                        <a href="${href1}" target="_blank" > LINK </a>
+                    </div>
                     </div>  
                 </td>
             </tr> 
@@ -85,6 +91,7 @@ const fillData = () => {
                             <a href="#0" class="paperTitle">${name2} </a> 
                             <div> ${designation2} </div> <div class="rConferences">
                                 <div class="referenceY">${message2}</div>
+                                <a href="${href2}" target="_blank" > LINK </a>
                             </div>
                 
                             
