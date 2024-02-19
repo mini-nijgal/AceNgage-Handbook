@@ -29,7 +29,7 @@ let header = $(`
    More
   </a>
   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-    <a class="dropdown-item" href="projects.html">Star Board</a>
+  <a class="dropdown-item" href="travel_temp.html">Star Board</a>
     <a class="dropdown-item" href="event.html">Gallery</a>
     <a class="dropdown-item" href="getHelp.html">Get Help</a>
     <a class="dropdown-item" href="reference.html">Job Vacancy</a>

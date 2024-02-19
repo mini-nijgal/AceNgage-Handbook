@@ -664,3 +664,65 @@ a:hover {
     width: 160px;
   }
 }
+
+.themeOne {
+  /* Define your theme styles here */
+}
+
+/* Custom styles for the form elements */
+.formbold-builder-form label {
+  font-weight: bold;
+}
+
+.formbold-builder-form input[type="text"],
+.formbold-builder-form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  outline: none;
+}
+
+.formbold-builder-form input[type="submit"] {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+}
+
+.formbold-builder-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the file upload dropzone */
+.formbold__dropzone {
+  border: 2px dashed #ccc;
+  background-color: #fff;
+}
+
+.formbold__dropzone p {
+  margin: 0;
+}
+
+.formbold__dropzone span {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  background-color: #f3f3fe;
+  margin-right: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .formbold-builder-form {
+    max-width: 100%;
+  }
+}

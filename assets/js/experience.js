@@ -9,14 +9,14 @@ const exp = [
     cardImage: "assets/images/experience-page/krish.jpeg",
     // place: "Flipkart",
     time: "Reach Krish at krish@acengage.com",
-    desp: "As the CoFounder of AceNgage (an award winning HR organisation working with companies to improve employee engagement and retention) Krish covers a wide arc of People Operations and Human Resource and Process Consulting apart from being the key sales and marketing role that he accomplishes at AceNgage. As a company with a decade long vintage, Krish spearheads client relationships as well. Clients look to him and the team at AceNgage for guidance and help on some of their most vexing ‘people problems’ that face them. He has been advising clients on a variety of subjects ranging from recruitment, vendor management, induction quality, training effectiveness and has helped evolve creative processes to strengthen these areas. His days at hospitality taught him that ‘Customer is King’ and it continues to be a philosophy at AceNgage. He enjoys playing Squash, reading comics and blogging. Counts running the full marathon among his major achievements.  ",
+    desp: "As the Co-Founder of AceNgage, Krish wears many hats. From revolutionizing People Operations to mastering Human Resource Consulting, he's the go-to guy for all things HR. With a decade-long journey at AceNgage, Krish is not just a consultant; he's a problem-solver, a visionary, and a marathon runner (literally!). ",
   },
   {
     title: "Ashana K",
     cardImage: "assets/images/experience-page/ashana.png",
     // place: "IIT, Bombay",
     time: "Reach Ashana at ashana@acengage.com",
-    desp: "Ashana is a Post Graduate in Management with over 16 years experience in the Telecom industry, Outsourcing and HR. She has handled all facets of Delivery including Recruitment, Training, Quality, Client Relationship and Account Management.Teaching has always been her passion and she conducts regular sessions as a Guest Faculty for MBA/PGDBM students. She is now involved in Coaching managers to improve their People Management Skills.Her dream is to make AceNgage the Numero Uno among companies specializing in Employee Engagement.She enjoys trekking, travelling and reading.",
+    desp: "With over 16 years of experience in Telecom, Outsourcing, and HR, Ashana is the powerhouse behind AceNgage's success. Her passion for teaching reflects in her role as a Guest Faculty for MBA students. Ashana's dream is to make AceNgage the top player in Employee Engagement. When she's not coaching managers or managing accounts, she's trekking, traveling, and reading.",
   },
 ];
 
@@ -67,7 +67,7 @@ const volunteershipcards = [
   {
     title: "Value",
     cardImage: "assets/images/experience-page/Values.png",
-    description:"<li> Sincerity</li><li>Enthusiasm</li><li>Innovation</li>",
+    description:"<ul> <li> Sincerity</li><li>Enthusiasm</li><li>Innovation</li> </ul>",
   },
 ];
 

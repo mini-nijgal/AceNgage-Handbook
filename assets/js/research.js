@@ -5,8 +5,7 @@ const researchTable = document.querySelector(".main");
 const research = [
   {
     title: "AceNgage Employee Handbook",
-    authors:
-      "In order to build a healthy environment in the workplace with an organized culture, every employer needs to build and maintain an employee handbook with clear norms and processes written in it. Writing a handbook might not as easy as it sounds, but it is fundamental for every company to have it.",
+    authors:"Our Employee Handbook is like the playbook of a winning team. It's the guide to our game, outlining the rules, strategies, and expectations that help us maintain a healthy workplace environment with an organized culture. It's not just a document; it's the foundation of our team's success.",
     citebox: "popup1",
     image:
       "https://connectresources.ae/wp-content/uploads/2020/10/maintain-an-employee-handbook.jpg",
@@ -19,8 +18,7 @@ const research = [
   },
   {
     title: "AceNgage InfoServices BYOD Policy",
-    authors:
-      "The BYOD and Acceptable Use Policy are part of the corporate Information Security Program. Information security policies are the principles that direct managerial decision-making and facilitate secure business operations.",
+    authors:"Our Bring Your Own Device (BYOD) Policy is all about balancing flexibility and security. It's like allowing players to bring their lucky charms to the game while ensuring they don't compromise the team's overall performance. This policy is part of our corporate Information Security Program, ensuring that we play smart and safe.",
 
     citebox: "popup1",
     image:
@@ -35,8 +33,7 @@ const research = [
 
   {
     title: "AceNgage Email Handling process ",
-    authors:
-      "As a mitigation step to ensure we don’t send emails (containing confidential information) to the wrong recipient, the below process should be followed on an immediate basis by all acengage.com email id users.There is two parts to this process: 1. Users using ZOHO webmail 2. Users using Microsoft Outlook",
+    authors:"To prevent any accidental slips like sending confidential information to the wrong recipient, we have a strict email handling process. It's like having a goalie to guard our net, ensuring that our communications stay within the team and don't end up in the opponent's hands.",
     citebox: "popup2",
     image:
       "https://jatheon.com/wp-content/uploads/2018/08/680-x-360-20-reasons-why-every-company-should-archive-email.png",

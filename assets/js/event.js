@@ -4,33 +4,39 @@ $(document).ready(function () {
   const event = [
     // eslint-disable-next-line linebreak-style
     {
-      title: "Talk on ABC",
-      image: "https://media.istockphoto.com/id/1368965646/photo/multi-ethnic-guys-and-girls-taking-selfie-outdoors-with-backlight-happy-life-style-friendship.webp?s=2048x2048&w=is&k=20&c=baHCg849TJFcyLJ8noAmST59EPTQ217u1m_PQ99B6TY=",
+      title: "Chennai Meetup",
+      image:"assets/images/event/g2.jpeg",
     },
     {
       title: "Keynote on XYZ",
-      image: "https://media.istockphoto.com/id/1368965646/photo/multi-ethnic-guys-and-girls-taking-selfie-outdoors-with-backlight-happy-life-style-friendship.webp?s=2048x2048&w=is&k=20&c=baHCg849TJFcyLJ8noAmST59EPTQ217u1m_PQ99B6TY=",
+      image: "assets/images/event/g1.jpeg",
     },
-    { title: "Group Picture", image: "https://media.istockphoto.com/id/1368965646/photo/multi-ethnic-guys-and-girls-taking-selfie-outdoors-with-backlight-happy-life-style-friendship.webp?s=2048x2048&w=is&k=20&c=baHCg849TJFcyLJ8noAmST59EPTQ217u1m_PQ99B6TY=" },
+    { title: "Group Picture",
+     image: "assets/images/event/g3.jpeg",
+  },
     {
       title: "Presentation",
-      image: "https://media.istockphoto.com/id/513439341/photo/portrait-of-enthusiastic-business-people-in-circle.webp?s=2048x2048&w=is&k=20&c=9hnolLHaRciS6aJtEGTP1rdFjD2ccFt8PwtdH0E8IK4=",
+      image: "assets/images/event/g9.jpeg",
     },
     {
       title: "Note on XYZ",
-      image: "https://media.istockphoto.com/id/1392016982/photo/mixed-group-of-business-people-sitting-around-a-table-and-talking.jpg?s=612x612&w=is&k=20&c=HYwuJmIim5Fr9xlm0ebEQtA_VuXxPhUixcYPkmRf2SU=",
+      image: "assets/images/event/g5.jpeg",
     },
     {
       title: "Keytopics",
-      image: "https://media.istockphoto.com/id/1392016982/photo/mixed-group-of-business-people-sitting-around-a-table-and-talking.jpg?s=612x612&w=is&k=20&c=HYwuJmIim5Fr9xlm0ebEQtA_VuXxPhUixcYPkmRf2SU=",
+      image: "assets/images/event/g6.jpeg",
     },
     {
       title: "The Gist",
-      image: "https://media.istockphoto.com/id/1342270584/photo/confident-business-team-having-meeting.webp?s=2048x2048&w=is&k=20&c=cbnUHL96Ytj-iWrt5kjGegEh38SsXtiFh1P_NiTP2L4=",
+      image: "assets/images/event/g11.jpeg",
     },
     {
       title: "Thank You",
-      image: "https://media.istockphoto.com/id/1342270584/photo/confident-business-team-having-meeting.webp?s=2048x2048&w=is&k=20&c=cbnUHL96Ytj-iWrt5kjGegEh38SsXtiFh1P_NiTP2L4=",
+      image: "assets/images/event/g12.jpeg",
+    },
+    {
+      title: "Thank You",
+      image: "assets/images/event/g13.jpeg",
     },
   ];
   // Filling the details from the object array event
