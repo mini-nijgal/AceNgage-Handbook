@@ -8,34 +8,34 @@ $(document).ready(function () {
       image:"assets/images/event/g2.jpeg",
     },
     {
-      title: "Keynote on XYZ",
+      title: "Client Meetup",
       image: "assets/images/event/g1.jpeg",
     },
-    { title: "Group Picture",
+    { title: "Virtual connect",
      image: "assets/images/event/g3.jpeg",
   },
     {
-      title: "Presentation",
+      title: " ",
       image: "assets/images/event/g9.jpeg",
     },
     {
-      title: "Note on XYZ",
+      title: "Virtual connect",
       image: "assets/images/event/g5.jpeg",
     },
     {
-      title: "Keytopics",
+      title: "Conference",
       image: "assets/images/event/g6.jpeg",
     },
     {
-      title: "The Gist",
+      title: "Client Meetup",
       image: "assets/images/event/g11.jpeg",
     },
     {
-      title: "Thank You",
+      title: "Work from Anywhere",
       image: "assets/images/event/g12.jpeg",
     },
     {
-      title: "Thank You",
+      title: "<3",
       image: "assets/images/event/g13.jpeg",
     },
   ];

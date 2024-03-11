@@ -19,6 +19,47 @@ const moocscards = [
     cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
     moocLink: "https://online.fliphtml5.com/xmvex/lidx/index.html",
   },
+  {
+    title: "AceNgage ISMS Cloud Services InfoSec Policy-ISP-29",
+    cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
+    moocLink: "https://online.fliphtml5.com/xmvex/morh/",
+  },
+  {
+    title: "AceNgage ISMS Secure Coding Policy-ISP-23",
+    cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
+    moocLink: "https://online.fliphtml5.com/xmvex/btvw/",
+  },
+  {
+    title: "AceNgage ISMS Laptop Policy-ISP-25",
+    cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
+    moocLink: "https://online.fliphtml5.com/xmvex/ocrp/",
+  },
+  {
+    title: "AceNgage ISMS Log Monitoring Policy-ISP-27",
+    cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
+    moocLink: "https://online.fliphtml5.com/xmvex/vaje/",
+  },
+  {
+    title: "AceNgage ISMS Audit Vulnerability Scanning Policy-ISP-26",
+    cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
+    moocLink: "https://online.fliphtml5.com/xmvex/mmwm/",
+  },
+  {
+    title: "AceNgage ISMS Threat Intelligencel Policy-ISP-28",
+    cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
+    moocLink: "https://online.fliphtml5.com/xmvex/wpzj/",
+  },
+  {
+    title: "AceNgage ISMS Application Security Policy-ISP-24",
+    cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
+    moocLink: "https://online.fliphtml5.com/xmvex/dmhb/",
+  },
+  {
+    title: "AceNgage ISMS Web Filtering Policy-ISP-22",
+    cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
+    moocLink: "https://online.fliphtml5.com/xmvex/zihn/",
+  },
+  
   
 ];
 
