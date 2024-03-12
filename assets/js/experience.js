@@ -95,40 +95,20 @@ document.addEventListener("DOMContentLoaded", showCards);
 
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
+  
   {
-    title: "Ditti",
-    subtitle: "Senior Engagement Specialist",
-    image: "assets/images/experience-page/ditti.png",
-    desp:"My experience as a Senior Engagement Specialist at AceNgage has been truly remarkable. From the moment I joined, I've been entrusted with meaningful opportunities that have accelerated my growth both personally and professionally. The company's mission to revolutionize HR practices and create better workplaces has deeply resonated with me, fueling my passion for impactful work. Despite the challenges of remote collaboration, the sense of unity and innovation within our teams and with our leaders has been palpable",
-    href: "https://uplift.girlscript.tech/",
-  },
-  {
-    title: "Mayank M",
+    title: "Mayank Mehta",
     subtitle: "HR Counselor",
     image: "assets/images/experience-page/mayank.jpg",
     desp: "I feel incredibly fortunate to be part of the Acengage family. Working here has been an amazing journey filled with growth, collaboration, and a sense of belonging. The company's commitment to innovation and employee well-being creates an empowering environment that encourages creativity and excellence.Acengage isn't just a job for me; it's a community where I thrive and contribute to something meaningful every day. Grateful to be a part of this amazing team!",
     href: "https://ulhacks.com/",
   },
   {
-    title: "Siddi",
-    subtitle: "Exit SME",
-    image: "assets/images/experience-page/siddi.jpg",
-    desp: "I have been associated with AceNgage for close to three years and it has been an incredibly rewarding experience. During my time here, I have had the opportunity to learn and grow both personally and professionally. I have been fortunate to work alongside great managers who have provided me with guidance and support, and I have also had the pleasure of making lasting friendships with my colleagues. ",
-    href: "https://wafflehacks.org/",
-  },
-  {
-    title: "Kajal",
-    subtitle: "Client Relationship Manager",
-    image: "assets/images/experience-page/kajal.png",
-    desp: "I’m Kajal Khanna, joined AceNgage as an HR Counsellor in July 2022 and currently serving the role of a Client Relationship Manager. The journey with Acengage has been upwards and onwards. While I look back, I have immense gratitude for my co-founders who always have been appreciative of my hard work and recognized the same professionally. ",
-    href: "https://elevatetech.codes/",
-  },
-  {
-    title: "Feba A",
-    subtitle: "CE SME ",
-    image: "assets/images/experience-page/feba.png",
-    desp: "AceNgage has been a stepping stone in my career. I have learnt and grown so much here, since I joined. I will always be grateful for all the opportunities I have been given and for the trust that the leaders have shown toward me!",
-    href: "https://www.linkedin.com/company/pitchteen/about/",
+    title: "Ditti Bamboli ",
+    subtitle: "Senior Engagement Specialist",
+    image: "assets/images/experience-page/ditti.png",
+    desp:"My experience as a Senior Engagement Specialist at AceNgage has been truly remarkable. From the moment I joined, I've been entrusted with meaningful opportunities that have accelerated my growth both personally and professionally. The company's mission to revolutionize HR practices and create better workplaces has deeply resonated with me, fueling my passion for impactful work. Despite the challenges of remote collaboration, the sense of unity and innovation within our teams and with our leaders has been palpable",
+    href: "https://uplift.girlscript.tech/",
   },
   {
     title: " Nikhila Kalapurackal George",
@@ -137,6 +117,28 @@ const mentor = [
     desp:"Working with AceNgage has been a wonderful experience. I was given a lot of challenging new opportunities which helped me on the technical front as well as it enhanced me to demonstrate my strong commitment and contribution.The thing I love in AceNgage is I always get to see a sense of company loyalty in most members of the team. Every employee is always given a chance to share his/her problems which helps to establish a healthy relationship. ",
     href: "https://hackasolution.devpost.com/",
   },
+  {
+    title: "Kajal Khanna ",
+    subtitle: "Client Relationship Manager",
+    image: "assets/images/experience-page/kajal.png",
+    desp: "I’m Kajal Khanna, joined AceNgage as an HR Counsellor in July 2022 and currently serving the role of a Client Relationship Manager. The journey with Acengage has been upwards and onwards. While I look back, I have immense gratitude for my co-founders who always have been appreciative of my hard work and recognized the same professionally. ",
+    href: "https://elevatetech.codes/",
+  },
+  {
+    title: "Feba Abraham",
+    subtitle: "CE SME ",
+    image: "assets/images/experience-page/feba.png",
+    desp: "AceNgage has been a stepping stone in my career. I have learnt and grown so much here, since I joined. I will always be grateful for all the opportunities I have been given and for the trust that the leaders have shown toward me!",
+    href: "https://www.linkedin.com/company/pitchteen/about/",
+  },
+  {
+    title: "Siddi",
+    subtitle: "Exit SME",
+    image: "assets/images/experience-page/siddi.jpg",
+    desp: "I have been associated with AceNgage for close to three years and it has been an incredibly rewarding experience. During my time here, I have had the opportunity to learn and grow both personally and professionally. I have been fortunate to work alongside great managers who have provided me with guidance and support, and I have also had the pleasure of making lasting friendships with my colleagues. ",
+    href: "https://wafflehacks.org/",
+  },
+  
 ];
 
 const showCards3 = () => {
