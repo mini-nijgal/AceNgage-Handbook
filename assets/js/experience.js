@@ -119,7 +119,7 @@ const mentor = [
   },
   {
     title: "Kajal Khanna ",
-    subtitle: "Client Relationship Manager",
+    subtitle: "Client Relationship Executive",
     image: "assets/images/experience-page/kajal.png",
     desp: "I’m Kajal Khanna, joined AceNgage as an HR Counsellor in July 2022 and currently serving the role of a Client Relationship Manager. The journey with Acengage has been upwards and onwards. While I look back, I have immense gratitude for my co-founders who always have been appreciative of my hard work and recognized the same professionally. ",
     href: "https://elevatetech.codes/",
