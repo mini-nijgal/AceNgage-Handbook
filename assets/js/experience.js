@@ -56,13 +56,13 @@ const volunteershipcards = [
     title: "Mission",
     cardImage: "assets/images/experience-page/acemission.png",
     description:
-      "To be the best HR Intelligence partner by providing better feedback across various stages of the employee lifecyclet",
+      "To be the best HR Intelligence partner by providing better feedback across various stages of the employee lifecycle",
   },
   {
     title: "Vision",
     cardImage: "assets/images/experience-page/Vision.png",
     description:
-      "To make our clients more competitive by becomingthe leading provider ofsuperios HR (people) Intelligence.",
+      "To make our clients more competitive by becoming the leading provider of superior HR (people) Intelligence.",
   },
   {
     title: "Value",
