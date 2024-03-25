@@ -9,11 +9,11 @@ const exp = [
     cardImage: "assets/images/experience-page/krish.jpeg",
     // place: "Flipkart",
     time: "Reach Krish at krish@acengage.com",
-    desp: "As the Co-Founder of AceNgage, Krish wears many hats. From revolutionizing People Operations to mastering Human Resource Consulting, he's the go-to guy for all things HR. With a decade-long journey at AceNgage, Krish is not just a consultant; he's a problem-solver, a visionary, and a marathon runner (literally!). ",
+    desp: "As the Co-Founder of AceNgage, Krish wears many hats. From revolutionizing People Operations to mastering Human Resource Consulting, he's the go-to guy for all things HR. With a decade-long journey at AceNgage, Krish is not just a consultant; he's a problem-solver, a visionary, and a marathon runner. ",
   },
   {
     title: "Ashana K",
-    cardImage: "assets/images/experience-page/ashana.png",
+    cardImage: "assets/images/ash.png",
     // place: "IIT, Bombay",
     time: "Reach Ashana at ashana@acengage.com",
     desp: "With over 16 years of experience in Telecom, Outsourcing, and HR, Ashana is the powerhouse behind AceNgage's success. Her passion for teaching reflects in her role as a Guest Faculty for MBA students. Ashana's dream is to make AceNgage the top player in Employee Engagement. When she's not coaching managers or managing accounts, she's trekking, traveling, and reading.",

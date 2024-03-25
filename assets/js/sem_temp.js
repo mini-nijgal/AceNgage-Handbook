@@ -224,28 +224,28 @@ $(window).on("load", function () {
 // Store Semester Recap data
 const sem_temp = [
   {
-    event_name: "Post yXit ",
-    event_type: " ",
+    event_name: "Candidate ",
+    event_type: "Engagement",
     event_image: "chemistrymentee.jpg",
   },
   {
-    event_name: "Candidate ",
+    event_name: "New Hire ",
     event_type: "Engagement",
     event_image: "uxresearch.jpg",
   },
   {
-    event_name: "New Hire",
-    event_type: "Engagement",
+    event_name: "Employee",
+    event_type: "Experience",
     event_image: "teamcamping.jpg",
   },
   {
-    event_name: "Employee",
-    event_type: "Engagement Survey",
+    event_name: "Workshops",
+    event_type: "and Trainings",
     event_image: "groomingspeech.jpg",
   },
   {
-    event_name: "Workshops ",
-    event_type: "and Trainings",
+    event_name: "Exits ",
+    event_type: " ",
     event_image: "graduation.jpg",
   },
 ];
