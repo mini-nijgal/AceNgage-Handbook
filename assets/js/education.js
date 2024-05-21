@@ -6,57 +6,57 @@ const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
     title: "AceNgage ISMS Information Classification Policy",
-    cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
+    cardImage: "assets/images/education-page/info1.png",
     moocLink: "https://online.fliphtml5.com/xmvex/yhrn/index.html",
   },
   {
     title: "AceNgage ISMS Access Control Policy",
-    cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
+    cardImage: "assets/images/education-page/info2.png",
     moocLink: "https://online.fliphtml5.com/xmvex/lxjz/index.html",
   },
   {
     title: "AceNgage ISMS Password Policy",
-    cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
+    cardImage: "assets/images/education-page/info3.png",
     moocLink: "https://online.fliphtml5.com/xmvex/lidx/index.html",
   },
   {
     title: "AceNgage ISMS Cloud Services InfoSec Policy-ISP-29",
-    cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
+    cardImage: "assets/images/education-page/info4.png",
     moocLink: "https://online.fliphtml5.com/xmvex/morh/",
   },
   {
     title: "AceNgage ISMS Secure Coding Policy-ISP-23",
-    cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
+    cardImage: "assets/images/education-page/info5.png",
     moocLink: "https://online.fliphtml5.com/xmvex/btvw/",
   },
   {
     title: "AceNgage ISMS Laptop Policy-ISP-25",
-    cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
+    cardImage: "assets/images/education-page/info6.png",
     moocLink: "https://online.fliphtml5.com/xmvex/ocrp/",
   },
   {
     title: "AceNgage ISMS Log Monitoring Policy-ISP-27",
-    cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
+    cardImage: "assets/images/education-page/info7.png",
     moocLink: "https://online.fliphtml5.com/xmvex/vaje/",
   },
   {
     title: "AceNgage ISMS Audit Vulnerability Scanning Policy-ISP-26",
-    cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
+    cardImage: "assets/images/education-page/info8.png",
     moocLink: "https://online.fliphtml5.com/xmvex/mmwm/",
   },
   {
     title: "AceNgage ISMS Threat Intelligencel Policy-ISP-28",
-    cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
+    cardImage: "assets/images/education-page/info9.png",
     moocLink: "https://online.fliphtml5.com/xmvex/wpzj/",
   },
   {
     title: "AceNgage ISMS Application Security Policy-ISP-24",
-    cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
+    cardImage: "",
     moocLink: "https://online.fliphtml5.com/xmvex/dmhb/",
   },
   {
     title: "AceNgage ISMS Web Filtering Policy-ISP-22",
-    cardImage: "https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png",
+    cardImage: "",
     moocLink: "https://online.fliphtml5.com/xmvex/zihn/",
   },
   
@@ -90,14 +90,14 @@ function showExperience() {
 const showCards = () => {
   let output = "";
   moocscards.forEach(
-    ({ title, cardImage, moocLink }) =>
+    ({ title, cardImage, moocLink,description }) =>
       (output += `        
         <div class="col-6 col-md-3 col-sm-4 column" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600" >  
             <div class="card mb-3 mx-auto">
                <div class="content">
                   <div class="content-overlay"></div>
                     <img src=${cardImage} class="card-img-top content-image">     
-                  <div class="content-details fadeIn-bottom">
+                  <div class="content-details fadeIn-bottom">                  
                     <a href="${moocLink}" target="_blank"><i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: white;"></i></a>                                   
                   </div>
                 </div>
