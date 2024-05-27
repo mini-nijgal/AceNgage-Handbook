@@ -49,17 +49,7 @@ const moocscards = [
     cardImage: "assets/images/education-page/info9.png",
     moocLink: "https://online.fliphtml5.com/xmvex/wpzj/",
   },
-  {
-    title: "AceNgage ISMS Application Security Policy-ISP-24",
-    cardImage: "",
-    moocLink: "https://online.fliphtml5.com/xmvex/dmhb/",
-  },
-  {
-    title: "AceNgage ISMS Web Filtering Policy-ISP-22",
-    cardImage: "",
-    moocLink: "https://online.fliphtml5.com/xmvex/zihn/",
-  },
-  
+
   
 ];
 
