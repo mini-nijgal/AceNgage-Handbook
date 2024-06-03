@@ -104,7 +104,7 @@ const mentor = [
     href: "https://ulhacks.com/",
   },
   {
-    title: "Ditti Bamboli ",
+    title: "Diti Bamboli ",
     subtitle: "Senior Engagement Specialist",
     image: "assets/images/experience-page/ditti.png",
     desp:"My experience as a Senior Engagement Specialist at AceNgage has been truly remarkable. From the moment I joined, I've been entrusted with meaningful opportunities that have accelerated my growth both personally and professionally. The company's mission to revolutionize HR practices and create better workplaces has deeply resonated with me, fueling my passion for impactful work. Despite the challenges of remote collaboration, the sense of unity and innovation within our teams and with our leaders has been palpable",
@@ -132,7 +132,7 @@ const mentor = [
     href: "https://www.linkedin.com/company/pitchteen/about/",
   },
   {
-    title: "Siddi",
+    title: "Siddhi",
     subtitle: "Exit SME",
     image: "assets/images/experience-page/siddi.jpg",
     desp: "I have been associated with AceNgage for close to three years and it has been an incredibly rewarding experience. During my time here, I have had the opportunity to learn and grow both personally and professionally. I have been fortunate to work alongside great managers who have provided me with guidance and support, and I have also had the pleasure of making lasting friendships with my colleagues. ",
