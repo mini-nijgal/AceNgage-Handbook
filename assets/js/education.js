@@ -7,50 +7,48 @@ const moocscards = [
   {
     title: "AceNgage ISMS Information Classification Policy",
     cardImage: "assets/images/education-page/info1.png",
-    moocLink: "https://online.fliphtml5.com/xmvex/yhrn/index.html",
+    moocLink: "https://online.fliphtml5.com/tiwlx/cyuw/",
   },
   {
     title: "AceNgage ISMS Access Control Policy",
     cardImage: "assets/images/education-page/info2.png",
-    moocLink: "https://online.fliphtml5.com/xmvex/lxjz/index.html",
+    moocLink: "https://online.fliphtml5.com/tiwlx/elog/",
   },
   {
     title: "AceNgage ISMS Password Policy",
     cardImage: "assets/images/education-page/info3.png",
-    moocLink: "https://online.fliphtml5.com/xmvex/lidx/index.html",
+    moocLink: "https://online.fliphtml5.com/tiwlx/gwom/",
   },
   {
     title: "AceNgage ISMS Cloud Services InfoSec Policy-ISP-29",
     cardImage: "assets/images/education-page/info4.png",
-    moocLink: "https://online.fliphtml5.com/xmvex/morh/",
+    moocLink: "https://online.fliphtml5.com/tiwlx/lmqo/",
   },
   {
     title: "AceNgage ISMS Secure Coding Policy-ISP-23",
     cardImage: "assets/images/education-page/info5.png",
-    moocLink: "https://online.fliphtml5.com/xmvex/btvw/",
+    moocLink: "https://online.fliphtml5.com/tiwlx/idhp/",
   },
   {
     title: "AceNgage ISMS Laptop Policy-ISP-25",
     cardImage: "assets/images/education-page/info6.png",
-    moocLink: "https://online.fliphtml5.com/xmvex/ocrp/",
+    moocLink: "https://online.fliphtml5.com/tiwlx/wsoj/",
   },
   {
     title: "AceNgage ISMS Log Monitoring Policy-ISP-27",
     cardImage: "assets/images/education-page/info7.png",
-    moocLink: "https://online.fliphtml5.com/xmvex/vaje/",
+    moocLink: "https://online.fliphtml5.com/tiwlx/lgcl/",
   },
   {
     title: "AceNgage ISMS Audit Vulnerability Scanning Policy-ISP-26",
     cardImage: "assets/images/education-page/info8.png",
-    moocLink: "https://online.fliphtml5.com/xmvex/mmwm/",
+    moocLink: "https://online.fliphtml5.com/tiwlx/ared/",
   },
   {
     title: "AceNgage ISMS Threat Intelligencel Policy-ISP-28",
     cardImage: "assets/images/education-page/info9.png",
-    moocLink: "https://online.fliphtml5.com/xmvex/wpzj/",
+    moocLink: "https://online.fliphtml5.com/tiwlx/wwts/",
   },
-
-  
 ];
 
 
