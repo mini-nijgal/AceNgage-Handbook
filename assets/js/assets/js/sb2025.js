@@ -6,42 +6,33 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "Winners - January 2024",
+    title: "Winners - January 2025",
     cardImage:"assets/images/project-page/rnr.png",
-    description: "Winners Slides - January 2024",
+    description: "Winners Slides - January 2025",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    href: "assets/images/experience-page/jan.mp4",
+    href: "assets/images/experience-page/RR_JAN_2025.mp4",
   },
   {
-    title: "Winners - February 2024",
+    title: "Winners - February 2025",
     cardImage:"assets/images/project-page/rnr.png",
     description: "Winners Slides - February 2024",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    href: "assets/images/experience-page/rrfeb.mp4",
+    href: "assets/images/experience-page/RR_FEB_2025.mp4",
   },
   {
-    title: "Winners - March 2024",
-    cardImage:"assets/images/project-page/rnr.png",
-    description: "Winners Slides - March 2024",
+    title: "Winners - March 2025",
+    cardImage:"assets/images/project-page/RR_MAR_2025.png",
+    description: "Winners Slides - March 2025",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     href: "https://online.fliphtml5.com/xmvex/nuys/index.html",
   },
   {
-    title: "Winners - April 2024",
+    title: "Winners - April 2025",
     cardImage:"assets/images/project-page/rnr.png",
-    description: "Winners Slides - April 2024",
+    description: "Winners Slides - April 2025",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    href: "assets/images/experience-page/April.mp4",
-  },
-  {
-    title: "Winners - May 2024",
-    cardImage:"assets/images/project-page/rnr.png",
-    description: "Winners Slides - May 2024",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    href: "https://online.fliphtml5.com/xmvex/pxih/index.html",
-  },
-  
-  
+    href: "assets/images/experience-page/RR_APRIL_2025.mp4",
+  }
 ];
 
 // function for rendering project cards data
